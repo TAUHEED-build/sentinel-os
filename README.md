@@ -1,20 +1,86 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Sentinel OS
 
-# Run and deploy your AI Studio app
+### AI Operations Control Center
 
-This contains everything you need to run your app locally.
+> Let AI work. Keep humans in control.
 
-View your app in AI Studio: https://ai.studio/apps/3afd1332-d07d-45e5-8ba4-80a7d4e0fa86
+Sentinel OS is an AI operations control layer designed to monitor, evaluate, approve, block, and audit actions performed by autonomous AI agents across business systems.
 
-## Run Locally
+As AI agents become more capable of taking real-world actions, organizations need visibility and control over what those agents are doing. Sentinel OS provides a centralized interface for monitoring agent activity, detecting risky behavior, enforcing policies, and maintaining an auditable evidence trail.
 
-**Prerequisites:**  Node.js
+## Core Capabilities
 
+- 🤖 AI agent monitoring
+- 🛡️ Action firewall
+- ⚠️ Explainable risk scoring
+- 📋 Policy enforcement
+- 👤 Human approval workflows
+- 🔍 Investigation and evidence chains
+- 🚨 Incident detection and management
+- 🧾 Complete audit trail
+- 🧪 AI safety simulations
+- 📊 Operations analytics
+- 🔌 Integration-ready architecture
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Safety & Control
+
+Sentinel OS follows a human-in-the-loop approach.
+
+High-risk AI actions can be flagged for review instead of being executed automatically. Each decision can be associated with risk signals, policies, approvals, and audit evidence.
+
+## Prototype
+
+The current version is a functional prototype using local simulations where external integrations are not available.
+
+The architecture is designed to evolve toward real AI-agent and business-system integrations.
+
+## Tech Stack
+
+### Frontend
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui
+- Framer Motion
+- Recharts
+
+### Backend / Architecture
+- Node.js
+- TypeScript
+- REST APIs
+- WebSocket / SSE
+- PostgreSQL
+- Prisma
+- Zod
+
+## Project Status
+
+🚧 **Prototype / MVP**
+
+Sentinel OS is currently under active development.
+
+Current focus areas include:
+- Agent activity monitoring
+- Risk and policy evaluation
+- Human approval workflows
+- Incident investigation
+- Auditability
+- AI safety simulations
+- Integration architecture
+
+## Vision
+
+The long-term vision of Sentinel OS is to become a control plane for autonomous AI operations — giving organizations the ability to deploy powerful AI agents while maintaining visibility, governance, and human control.
+
+---
+
+## Disclaimer
+
+Sentinel OS is currently a prototype and should not be used as a production security or compliance system without additional testing, validation, and appropriate integrations.
+
+## Author
+
+Built as an independent AI systems project.
+
+**Sentinel OS — Let AI work. Keep humans in control.**
