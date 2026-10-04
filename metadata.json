@@ -1,0 +1,6 @@
+{
+  "name": "Sentinel OS",
+  "description": "AI Operations Control Center — Let AI work. Keep humans in control. Real-time agent firewall, risk scoring, human approval workflows, and audit governance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
